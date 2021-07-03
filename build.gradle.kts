@@ -26,6 +26,7 @@ allprojects {
         maven("https://kotlin.bintray.com/kotlinx")
         maven("https://oss.sonatype.org/content/repositories/snapshots")
         mavenCentral()
+        mavenLocal()
     }
 
     group = project.properties["GROUP"]!!
